@@ -106,7 +106,7 @@ import templeOffers from "@/components/tmp/newDesign/N_TempleOffers.vue";
 import specialPooja from "@/components/tmp/newDesign/N_SpecialPooja.vue";
 import howToReach from "@/components/tmp/newDesign/N_how_to_reach.vue";
 import architecture from "@/components/tmp/newDesign/N_architecture.vue";
-import facilities from "@/components/tmp/newDesign/N_Facilities.vue";
+import facilities from "@/components/tmp/newDesign/N_facilities.vue";
 import near_by_facilities from "@/components/tmp/newDesign/N_near_by_facilities.vue";
 import cultural from "@/components/tmp/newDesign/N_cultural.vue";
 import nearnby_temples from "@/components/tmp/newDesign/N_nearby_temples.vue";
@@ -203,7 +203,7 @@ const CardSelected = (index) => {
     case 19:
       currentComponent.value = events;
       break;
-        case 20:
+    case 20:
       currentComponent.value = gallery;
       break;
     default:
@@ -410,12 +410,12 @@ const programs_ml = [
     title: "അടുത്ത സൗകര്യങ്ങൾ",
     description: "ഭക്ഷണം, താമസം, മറ്റു സൌകര്യങ്ങളുടെയും വിവരങ്ങൾ.",
   },
-    {
+  {
     icon: "mdi-drama-masks",
     title: "ക്ഷേത്ര കല",
     description: "ക്ഷേത്രവുമായി ബന്ധപ്പെട്ട കലാരൂപങ്ങളും സാംസ്കാരികവൈഭവവും.",
   },
-    {
+  {
     icon: "mdi-temple-hindu",
     title: "അടുത്തുള്ള ക്ഷേത്രങ്ങൾ",
     description: "ഭക്തർക്ക് സന്ദർശിക്കാവുന്ന അടുത്തുള്ള പവിത്ര ക്ഷേത്രങ്ങൾ",
