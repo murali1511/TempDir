@@ -245,7 +245,7 @@ const programs = [
 ];
 </script>
 <style scoped>
-.gradiant  {
+.gradiant {
   background: linear-gradient(90deg, #f2dfa7, #a64833, #f2dfa7);
 }
 .feature-card {

@@ -18,8 +18,8 @@ export const allevents = [
           whatsapp: "+91-987-XXX-YYYY",
         },
         date: {
-          startDate: "2025-10-02",
-          endDate: "2025-10-10",
+          startDate: "2025-11-08",
+          endDate: "2025-11-08",
         },
         poojaTiming: "5:00 AM - 9:00 PM",
 

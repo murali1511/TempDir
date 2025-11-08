@@ -1,5 +1,5 @@
 // utils/eventsService.js
-import { events as allTemples } from '~/stores/events.js' // adjust path as needed
+import { allevents as allTemples } from '@/stores/events.js' // adjust path as needed
 
 const MONTH_NAMES = [
   'January','February','March','April','May','June',
