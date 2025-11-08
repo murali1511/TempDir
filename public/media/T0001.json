@@ -1,0 +1,138 @@
+{
+  "templeID": "T0001",
+  "templeName": "Lokanarkavu Temple",
+  "media": [
+    {
+      "id": "M001",
+      "type": "image",
+      "url": "/media/T0001/KL13-1.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-1.jpg",
+      "title": "Temple Front",
+      "ml_title": "അമ്പലത്തിന്‍റെ മുൻവശം",
+      "caption": "Main entrance - festival day,Represents daily sunrise poojas, morning rituals, and the start of divine activities.",
+      "ml_caption": "പ്രധാന പ്രവേശനം - ഉത്സവദിനം",
+      "date": "2024-10-01"
+    },
+    {
+      "id": "M002",
+      "type": "video",
+      "url": "/media/T0001/pooja.mp4",
+      "thumbnail": "/media/T0001/thump/KL13-3.jpg",
+      "title": "Aarti Video",
+      "ml_title": "ആരതി വീഡിയോ",
+      "caption": "Evening aarti",
+      "ml_caption": "വൈകുന്നേര ആരതി ",
+      "date": "2024-09-20"
+    },
+    {
+      "id": "M003",
+      "type": "image",
+      "url": "/media/T0001/KL13-2.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-2.jpg",
+      "title": "Inner Sanctum",
+      "ml_title": "ഗർഭഗൃഹം",
+      "caption": "Garbhagriha",
+      "ml_caption": "ഗർഭഗൃഹം",
+      "date": "2022-12-15"
+    },
+    {
+      "id": "M004",
+      "type": "image",
+      "url": "/media/T0001/KL13-4.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-4.jpg",
+      "title": "Temple Front",
+      "ml_title": "അമ്പലത്തിന്‍റെ മുൻവശം",
+      "caption": "Main entrance - festival day",
+      "ml_caption": "പ്രധാന പ്രവേശനം - ഉത്സവദിനം",
+      "date": "2024-10-01"
+    },
+    {
+      "id": "M005",
+      "type": "video",
+      "url": "/media/T0001/pooja.mp4",
+      "thumbnail": "/media/T0001/thump/KL13-3.jpg",
+      "title": "Aarti Video",
+      "ml_title": "ആരതി വീഡിയോ",
+      "caption": "Evening aarti",
+      "ml_caption": "വൈകുന്നേര ആരതി",
+      "date": "2024-09-20"
+    },
+    {
+      "id": "M006",
+      "type": "image",
+      "url": "/media/T0001/KL13-2.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-2.jpg",
+      "title": "Inner Sanctum",
+      "ml_title": "ഗർഭഗൃഹം",
+      "caption": "Garbhagriha",
+      "ml_caption": "ഗർഭഗൃഹം",
+      "date": "2022-12-15"
+    },
+    {
+      "id": "M007",
+      "type": "image",
+      "url": "/media/T0001/KL13-1.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-1.jpg",
+      "title": "Temple Front",
+      "ml_title": "അമ്പലത്തിന്‍റെ മുൻവശം",
+      "caption": "Main entrance - festival day",
+      "ml_caption": "പ്രധാന പ്രവേശനം - ഉത്സവദിനം",
+      "date": "2024-10-01"
+    },
+    {
+      "id": "M008",
+      "type": "video",
+      "url": "/media/T0001/pooja.mp4",
+      "thumbnail": "/media/T0001/thump/KL13-3.jpg",
+      "title": "Aarti Video",
+      "ml_title": "ആരതി വീഡിയോ",
+      "caption": "Evening aarti, Represents daily sunrise poojas, morning rituals, and the start of divine activities.",
+      "ml_caption": "വൈകുന്നേര ആരതി",
+      "date": "2024-09-20"
+    },
+    {
+      "id": "M009",
+      "type": "image",
+      "url": "/media/T0001/KL13-2.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-2.jpg",
+      "title": "Inner Sanctum",
+      "ml_title": "ഗർഭഗൃഹം",
+      "caption": "Garbhagriha",
+      "ml_caption": "ഗർഭഗൃഹം",
+      "date": "2022-12-15"
+    },
+    {
+      "id": "M010",
+      "type": "image",
+      "url": "/media/T0001/KL13-4.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-4.jpg",
+      "title": "Temple Front",
+      "ml_title": "അമ്പലത്തിന്‍റെ മുൻവശം",
+      "caption": "Main entrance - festival day",
+      "ml_caption": "പ്രധാന പ്രവേശനം - ഉത്സവദിനം",
+      "date": "2024-10-01"
+    },
+    {
+      "id": "M011",
+      "type": "video",
+      "url": "/media/T0001/pooja.mp4",
+      "thumbnail": "/media/T0001/thump/KL13-3.jpg",
+      "title": "Aarti Video",
+      "ml_title": "ആരതി വീഡിയോ",
+      "caption": "Evening aarti",
+      "ml_caption": "വൈകുന്നേര ആരതി",
+      "date": "2024-09-20"
+    },
+    {
+      "id": "M012",
+      "type": "image",
+      "url": "/media/T0001/KL13-2.jpg",
+      "thumbnail": "/media/T0001/thump/KL13-2.jpg",
+      "title": "Inner Sanctum",
+      "ml_title": "ഗർഭഗൃഹം",
+      "caption": "Garbhagriha",
+      "ml_caption": "ഗർഭഗൃഹം",
+      "date": "2022-12-15"
+    }
+  ]
+}

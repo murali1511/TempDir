@@ -1,0 +1,7 @@
+.g_border {
+    border: 3px solid #de1212; /* Adds a solid red border with 4px width */
+  }
+
+  .g_gradiant {
+    background: linear-gradient(120deg, #f2dfa7, rgb(216, 142, 68), #f2dfa7);
+  }

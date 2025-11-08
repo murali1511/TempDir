@@ -1,0 +1,68 @@
+{
+  "greeting": "ഹലോ!",
+  "welcomeMessage": "ഞങ്ങളുടെ സൈറ്റിലേക്ക്  സ്വാഗതം .....",
+  "errorMessage": "Something went wrong",
+  "temple_title": "മഹാ ഗണപതി ക്ഷേത്രം ",
+  "event_btn_1": "കലണ്ടറിൽ ചേർക്കുക ",
+  "event_btn_2_1": "കൂടുതൽ  വിവരം ",
+  "event_btn_2_2": "ചുരുക്കത്തിൽ ",
+  "pooja_darsan_msg_1": "വിശേഷ ദിവസങ്ങളിൽ സമയങ്ങളിൽ മാറ്റം വന്നേക്കാം.",
+  "poojatime": "പൂജാസമയം ",
+  "temple_offer": "പൂജ, വഴിപാട് പട്ടിക ",
+  "mantra_summary": "ധ്യാന മന്ത്രം",
+  "about_h1":"ക്ഷേത്രത്തെ കുറിച്ച്",
+  "history_h1":"ക്ഷേത്ര ചരിത്രം",
+  "mythology_h1":"ക്ഷേത്ര പുരാണം",
+  "event_popup_msg_1": "പൂജ സമയം ",
+  "event_popup_msg_2": " പ്രധാന പരിപാടികൾ",
+  "event_popup_msg_3": "പങ്കെടുക്കേണ്ട രീതി ",
+  "event_popup_msg_4": "പ്രത്യേക അറിയിപ്പ്",
+  "event_popup_msg_5": "ബന്ധപ്പെടാനുള്ള വിവരങ്ങൾ",
+  "how_to_reach_h1": "എത്തിച്ചേരേണ്ട വിധം",
+  "deity_h1": "പ്രതിഷ്ഠകൾ",
+  "sub_deity": "ഉപ പ്രതിഷ്ഠകൾ",
+  "etiquette_h1": "ക്ഷേത്ര ആചാരങ്ങൾ",
+  "specialpooja_h1": "പ്രത്യേക പൂജകൾ",
+  "architecture_h1":"ക്ഷേത്ര നിർമ്മിതി ",
+  "events_h1":"ക്ഷേത്ര പരിപാടികൾ ",
+  "governance_h1":"ക്ഷേത്ര ഭരണസമിതി ",
+  "gallery_h1":"ചിത്രശാല ",
+  "facilities_h1":"സൗകര്യങ്ങളുടെ ലഭ്യത ",
+  "near_facilities_h1":"അടുത്തുള്ള സൗകര്യങ്ങൽ",
+  "local_attractions_h1":"സന്ദർശന സ്ഥലങ്ങൾ ",
+  "cultural_performance_h1":"ക്ഷേത്ര കലകൾ ",
+  "safety_health_h1":"ആരോഗ്യവും സുരക്ഷയും",
+  "temples_nearby_h1":"അടുത്തുള്ള ക്ഷേത്രങ്ങൾ",
+
+  "t_head": {
+    "visit": "ക്ഷേത്ര സന്ദർശനം",
+    "deity": "പ്രതിഷ്ഠകൾ",
+    "accessibility": "ക്ഷേത്രത്തിലേക്കുള്ള എത്തിച്ചേരൽ",
+    "timing": "ക്ഷേത്ര സന്ദർശന സമയം",
+    "events":"ഇന്നത്തെ പരിപാടികൾ",
+    "popularity":"ക്ഷേത്ര പ്രസിദ്ധി"
+  },
+
+  "deities": {
+    "options": [
+      { "value": "Bhagavathi", "title": "Bhagavathi" },
+      { "value": "Shiva", "title": "Shiva" },
+      { "value": "Vishnu", "title": "Vishnu" }
+    ]
+  },
+  "festivals": {
+  "title":"ക്ഷേത്ര ഉത്സവങ്ങൽ"
+},
+"$vuetify": {
+    "calendar": {
+      "moreEvents": "കൂടുതൽ"
+    },
+    "close":"അടക്കുക",
+    "open": "തുറക്കുക ",
+    "input":{
+      "clear":"ക്ലിയർ"
+    },
+     "noDataText":"മാച്ച് ഇല്ല "
+  }
+
+}

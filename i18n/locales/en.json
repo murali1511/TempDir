@@ -1,0 +1,70 @@
+{
+  "greeting": "Hello!",
+  "welcomeMessage": "Welcome to our site",
+  "errorMessage": "Something went wrong",
+  "temple_title": "Maha Ganapathi Temple",
+  "event_btn_1": "Add to Calendar",
+  "event_btn_2_1": "More Detail",
+  "event_btn_2_2": "summary only",
+  "pooja_darsan_msg_1": "Timings may change on special occasions.",
+  "poojatime": "Pooja Time",
+  "temple_offer": " List of Pooja & Offers ",
+  "mantra_summary": "Dhyana Mantra",
+  "about_h1": "About Temple",
+  "history_h1": "Temple History",
+  "mythology_h1": "Temple Mythology",
+  "event_popup_msg_1": "Daily Pooja Timing",
+  "event_popup_msg_2": "Event Highlighs",
+  "event_popup_msg_3": "How to Participate",
+  "event_popup_msg_4": "Special Information",
+  "event_popup_msg_5": "Contact Information",
+  "how_to_reach_h1": "How to Reach",
+  "deity_h1": "Deities",
+  "sub_deity": "Sub Deties",
+  "etiquette_h1": "Temple Etiquette",
+  "specialpooja_h1": "Special Pooja",
+  "architecture_h1": "Architecture & Layout",
+  "events_h1": "Temple Events",
+  "governance_h1": "Temple Administration",
+  "gallery_h1": "Image Gallery",
+  "facilities_h1": "Accessibility and Facilities",
+  "near_facilities_h1": "Nearby Facilities",
+  "local_attractions_h1": "local Attractions",
+  "cultural_performance_h1": "Cultural Prformance",
+  "safety_health_h1": "Health & Safety",
+  "temples_nearby_h1": "Nearest Temples",
+  "t_head": {
+    "visit": "Sacred Visits",
+    "deity": "Deities",
+    "accessibility": "Temple Accessibility",
+    "timing": "Temple Visit Timings",
+    "events": "Today's Events",
+    "popularity": "Popularity"
+  },
+
+
+  "deities": {
+    "options": [
+      { "value": "Bhagavathi", "title": "Bhagavathi" },
+      { "value": "Shiva", "title": "Shiva" },
+      { "value": "Vishnu", "title": "Vishnu" }
+    ]
+  }
+,
+"festivals": {
+  "title":"Temple Festivals"
+},
+"$vuetify": {
+    "calendar": {
+      "moreEvents": "more"
+    },
+    "close":"close",
+    "open": "open",
+    "input":{
+      "clear":"clear"
+    },
+    "noDataText":"No Matching"
+  }
+}
+
+  
