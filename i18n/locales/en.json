@@ -63,8 +63,13 @@
     "input":{
       "clear":"clear"
     },
-    "noDataText":"No Matching"
+    "noDataText":"No Matching",
+    "dataFooter":{
+      "itemsPerPageText":"Items per Page",
+      "pageText":"",
+      "itemsPerPageAll":"All"
   }
+}
 }
 
   

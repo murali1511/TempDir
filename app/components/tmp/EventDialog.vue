@@ -20,7 +20,7 @@
           {{ selectedEvent.eventTitle }}
         </p> -->
         <p class="font-weight-bold text-black mt-n6">
-          {{ format(selectedEvent.date.startDate, "fullDate") }}
+          {{ c }}
 
           {{
             (new Date(selectedEvent.date.endDate) -

@@ -1,14 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // export default defineNuxtConfig({
- // compatibilityDate: '2025-07-15',
- // devtools: { enabled: false }
+// compatibilityDate: '2025-07-15',
+// devtools: { enabled: false }
 //})
 
-
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
- modules: ["vuetify-nuxt-module","@nuxtjs/i18n", "nuxt-vuefire", '@pinia/nuxt', "@nuxt/image"],
+  modules: [
+    "vuetify-nuxt-module",
+    "@nuxtjs/i18n",
+    "nuxt-vuefire",
+    "@pinia/nuxt",
+    "@nuxt/image",
+  ],
   ssr: false,
 
   vuetify: {
@@ -17,25 +22,37 @@ export default defineNuxtConfig({
       treeshake: true,
       // Optional: Configure icon sets (e.g., Material Design Icons)
       icons: {
-        defaultSet: 'mdi',
+        defaultSet: "mdi",
       },
     },
     vuetifyOptions: {
       // Optional: Customize Vuetify settings (e.g., theme)
       theme: {
-        defaultTheme: 'light',
+        defaultTheme: "light",
       },
     },
   },
 
   i18n: {
     locales: [
-      { code: 'en', language: 'en-US',name: 'English', file: 'en.json', dir: 'ltr' },
-      { code: 'ml', language: 'fr-FR',name: 'Français', file: 'ml.json', dir: 'ltr' }
+      {
+        code: "en",
+        language: "en-US",
+        name: "English",
+        file: "en.json",
+        dir: "ltr",
+      },
+      {
+        code: "ml",
+        language: "fr-FR",
+        name: "Français",
+        file: "ml.json",
+        dir: "ltr",
+      },
     ],
-    defaultLocale: 'en',
+    defaultLocale: "en",
   },
-vuefire: {
+  vuefire: {
     auth: {
       enables: true,
       sessionCookie: false,
@@ -50,9 +67,9 @@ vuefire: {
     },
   },
   css: [
-    "vuetify/styles",// Import Vuetify styles
-    '~/assets/css/global.css', 
-        'maplibre-gl/dist/maplibre-gl.css'
+    "vuetify/styles", // Import Vuetify styles
+    "~/assets/css/global.css",
+    "maplibre-gl/dist/maplibre-gl.css",
   ],
   vite: {
     server: {
@@ -61,12 +78,17 @@ vuefire: {
       },
     },
   },
-imports: {
+  imports: {
     // Auto-imports are enabled by default, but you can customize if needed
     autoImport: true, // Explicitly ensure auto-imports are enabled
   },
-   pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate'], // Auto-import Pinia helpers
+  pinia: {
+    autoImports: ["defineStore", "acceptHMRUpdate"], // Auto-import Pinia helpers
   },
   compatibilityDate: "2024-11-12",
-})
+
+    runtimeConfig: {
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+    public: {}
+  }
+});

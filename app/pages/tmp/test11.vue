@@ -536,14 +536,17 @@
 import { ref, reactive, computed, onMounted, onBeforeUnmount } from "vue";
 import { allevents } from "@/stores/events.js"; // adjust import path if needed
 import { useDisplay, useDate } from "vuetify";
+import { checkCollectionExists } from "@/composables/upload/useDB_CRUD.js";
 // import { enUS } from "date-fns/locale"; // Add: Import en-US locale (or enIN for India)
 const { format, parseISO, diff, date } = useDate();
 
+// const allevents = ref([]);
+const selectedTempleId = ref(""); // default; change via input
+
 // Make editable copy of store data
 const temples = ref(JSON.parse(JSON.stringify(allevents || [])));
-
+console.log(temples.value);
 // State
-const selectedTempleId = ref(null);
 const selectedTemple = computed(
   () => temples.value.find((t) => t.TID === selectedTempleId.value) || null
 );
@@ -724,6 +727,7 @@ function saveEvent() {
     form.eventID = "E" + Math.floor(Math.random() * 10000);
     selectedTemple.value.events.push(JSON.parse(JSON.stringify(form)));
   }
+  console.log(form);
   closeDialog();
 }
 

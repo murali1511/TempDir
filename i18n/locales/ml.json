@@ -62,7 +62,12 @@
     "input":{
       "clear":"ക്ലിയർ"
     },
-     "noDataText":"മാച്ച് ഇല്ല "
+     "noDataText":"മാച്ച് ഇല്ല ",
+      "dataFooter":{
+      "itemsPerPageText":"പേജിലെ ഇനങ്ങൾ",
+      "pageText":"",
+      "itemsPerPageAll":"All"
+  }
   }
 
 }
